@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:packageNames="com.android.settings,com.android.chrome,com.facebook.katana,com.instagram.android,com.twitter.android,com.tiktok,com.snapchat.android,com.whatsapp,com.google.android.youtube,com.spotify.music"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeViewClicked|typeViewFocused"
+    android:accessibilityFlags="flagDefault|flagRetrieveInteractiveWindows"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:settingsActivity="com.usagecontrol.android.ui.screens.PermissionsScreen" />
