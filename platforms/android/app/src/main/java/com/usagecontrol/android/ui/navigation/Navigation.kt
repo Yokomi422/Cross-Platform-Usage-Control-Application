@@ -24,12 +24,12 @@ fun UsageControlNavigation(navController: NavHostController) {
             UsageStatsScreen(navController)
         }
         
-        composable(Screen.Settings.route) {
-            SettingsScreen(navController)
-        }
-        
         composable(Screen.ProgressiveLevels.route) {
             ProgressiveLevelsScreen(navController)
+        }
+        
+        composable(Screen.Settings.route) {
+            SettingsScreen(navController)
         }
         
         composable(Screen.Permissions.route) {
