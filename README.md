@@ -57,17 +57,40 @@ This application provides granular control over app and website usage across mul
 - **Deployment**: Flatpak, Snap, or AppImage packaging
 - **Service Management**: systemd integration with fallback support
 
+### Web Platform (Chrome Extension)
+
+#### Core Features
+- **Real-time Usage Tracking**: Monitor time spent on websites
+- **Site Blocking**: Block access to specific domains after time limits
+- **Daily Limits**: Set custom time restrictions per domain
+- **Override System**: Temporary access with 5-minute override
+- **Cloud Sync**: Synchronize data with Firebase and CloudKit
+
+#### Technology Stack
+- **Manifest**: V3 Service Worker architecture
+- **Background Script**: Usage tracking and enforcement
+- **Content Script**: Full-screen blocking overlay
+- **Storage**: Chrome Extension API with cloud synchronization
+- **UI**: Native HTML/CSS/JavaScript popup interface
+
+#### Integration
+- **Data Models**: Compatible with iOS, Android, and other platforms
+- **Cloud Services**: Uses same Firebase/CloudKit backend
+- **Progressive Levels**: Supports the main app's level-based restriction system
+
 ## Development Strategy
 
 ### Recommended Development Order
 1. **Start with macOS**: Better debugging tools and clearer development path
 2. **Expand to iOS**: Leverage macOS architecture and learnings
-3. **Android Implementation**: Build on established patterns
-4. **Linux Integration**: Most complex due to distribution diversity
+3. **Chrome Extension**: Quick implementation for web-based usage control
+4. **Android Implementation**: Build on established patterns
+5. **Linux Integration**: Most complex due to distribution diversity
 
 ### Security Model by Platform
 - **Apple Platforms**: System-enforced restrictions via official APIs
 - **Android**: Permission-based multi-layered defense
+- **Chrome Extension**: Browser API-based restrictions with overlay blocking
 - **Linux**: Cooperative restrictions with deliberate bypass complexity
 
 ## Key Features
@@ -90,6 +113,7 @@ This application provides granular control over app and website usage across mul
 - **macOS**: Xcode with Developer Certificate
 - **iOS**: Apple Developer Program membership with Family Controls approval
 - **Android**: Android Studio with appropriate SDK versions
+- **Chrome Extension**: Chrome browser with Developer mode enabled
 - **Linux**: Rust toolchain and distribution-specific development tools
 
 ### Development Environment Setup
