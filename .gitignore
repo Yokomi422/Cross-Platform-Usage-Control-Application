@@ -1,0 +1,41 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+*.lock
+
+# Build outputs
+build/
+dist/
+out/
+target/
+
+# Android
+*.apk
+*.aab
+local.properties
+.gradle/
+.cxx/
+
+# iOS/macOS
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+.build/
+
+# Temporary files
+*.tmp
+*.temp
+*~
