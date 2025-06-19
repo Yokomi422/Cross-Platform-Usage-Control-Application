@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Usage Control</string>
+    
+    <!-- Main screens -->
+    <string name="home">ホーム</string>
+    <string name="app_restrictions">アプリ制限</string>
+    <string name="usage_stats">使用統計</string>
+    <string name="settings">設定</string>
+    <string name="progressive_levels">プログレッシブレベル</string>
+    
+    <!-- Permissions -->
+    <string name="permission_usage_stats">使用統計へのアクセス</string>
+    <string name="permission_accessibility">アクセシビリティサービス</string>
+    <string name="permission_overlay">他のアプリの上に重ねて表示</string>
+    <string name="permission_device_admin">デバイス管理者</string>
+    
+    <!-- Messages -->
+    <string name="app_blocked_message">この時間帯はこのアプリの使用が制限されています</string>
+    <string name="time_limit_exceeded">本日の使用時間上限に達しました</string>
+    <string name="level_completed">レベルクリア！次のレベルに進みます</string>
+    
+    <!-- Buttons -->
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="grant_permission">権限を付与</string>
+    <string name="enable_service">サービスを有効化</string>
+    
+    <!-- Time formats -->
+    <string name="hours_minutes">%1$d時間%2$d分</string>
+    <string name="minutes">%1$d分</string>
+    <string name="less_than_minute">1分未満</string>
+    
+    <!-- Levels -->
+    <string name="level_beginner">ビギナー</string>
+    <string name="level_intermediate">中級者</string>
+    <string name="level_advanced">上級者</string>
+    <string name="level_expert">エキスパート</string>
+    <string name="level_master">マスター</string>
+</resources>
