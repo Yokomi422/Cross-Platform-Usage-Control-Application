@@ -1,0 +1,36 @@
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# Signing
+*.p12
+*.cer
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
